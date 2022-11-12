@@ -1,12 +1,35 @@
-#{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .outside{
     background-color: #B0C4DE;
-    padding: 20px;
+    padding: 30px;
+    width: 100vw;
+    height: 100vh;
 }
 .inside{
     display: flex;
     flex-direction: row;
+}
+.left{
+    background-color: white;
+    padding: 30px;
+}
+.right{
+    width: 40%;
+}
+.about, h1, .link {
+    margin-bottom: 30px;
+}
+.link a{
+    color: black;
+}
+.readMore{
+    background-color:orangered;
+    padding: 10px 40px;
+    border: 1px solid orangered ;
+    border-radius: 7px;
+    color: white;
 }
