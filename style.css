@@ -1,1 +1,12 @@
-
+#{
+    margin: 0;
+    padding: 0;
+}
+.outside{
+    background-color: #B0C4DE;
+    padding: 20px;
+}
+.inside{
+    display: flex;
+    flex-direction: row;
+}
