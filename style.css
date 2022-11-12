@@ -23,7 +23,9 @@
 }
 .about, h1, .link {
     margin-bottom: 30px;
-    font-family: font-family: font-family: 'PT Sans Narrow', sans-serif;}
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #82815a;
+}
 .link a{
     color: black;
 }
